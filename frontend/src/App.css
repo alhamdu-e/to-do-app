@@ -1,0 +1,465 @@
+.header {
+	padding: 7rem 5rem 5rem 5rem;
+	background-color: #ffe8cc;
+	display: grid;
+	column-gap: 4rem;
+	grid-template-columns: 55fr 30fr;
+	margin-bottom: 5rem;
+}
+.img {
+	width: 100%;
+}
+button {
+	cursor: pointer;
+}
+h1 {
+	font-size: 5rem;
+	text-transform: capitalize;
+	font-weight: 600;
+	line-height: 1.05;
+	margin-bottom: 3.8rem;
+	color: #3f3f3f;
+}
+p {
+	font-size: 1.8rem;
+	margin-bottom: 4.8rem;
+	color: #444;
+	line-height: 1.5;
+}
+.button {
+	border: none;
+	padding: 1.1rem 3rem;
+	font-size: 2.2rem;
+	text-transform: capitalize;
+	background-color: rgb(252, 252, 252);
+	color: #4e4b4b;
+	border-radius: 12px;
+	font-weight: 600;
+}
+.shadow {
+	box-shadow: 0 0 0 4px #f7ad7c;
+}
+.margin {
+	margin-right: 4rem;
+	color: white;
+	font-weight: 600;
+	background-color: #f76707;
+	padding-top: 1.4rem !important;
+}
+h2 {
+	font-size: 3.2rem;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 3.2rem;
+	color: #333;
+}
+.form--conainer {
+	display: grid;
+	grid-template-columns: 70rem 1fr;
+	background-color: #fff4e6;
+	margin-left: 8rem;
+	margin-right: 8rem;
+	border-radius: 16px;
+	columns: 3.2rem;
+	padding-bottom: 2rem;
+	padding-top: 4rem;
+}
+.form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 2.4rem;
+	column-gap: 3.2rem;
+	align-items: center;
+	padding: 6rem 7rem;
+}
+label {
+	display: block;
+	font-weight: 500;
+	font-size: 2rem;
+	margin-bottom: 1.2rem;
+	color: #444;
+}
+.input {
+	width: 100%;
+	font-family: inherit;
+	padding: 1.2rem;
+	font-size: 1.8rem;
+	border: none;
+	border-radius: 9px;
+}
+.input::placeholder {
+	font-weight: 500;
+	font-family: inherit;
+	font-size: 1.8rem;
+	color: #aaa;
+}
+.input:focus {
+	outline: none;
+	box-shadow: 0 0 0 0.5rem #f8b68a;
+}
+.btn {
+	border: none;
+	padding: 2rem 3rem;
+	font-size: 2rem;
+	font-weight: 700;
+	border-radius: 12px;
+	color: white;
+	box-shadow: 0 0 0 7px white;
+	background-color: #f76707;
+}
+.btn-container {
+	margin-top: 3rem;
+
+	grid-column: 1 / span 2;
+}
+
+.btn:hover {
+	background-color: #e98e2e;
+}
+.feature {
+	padding: 6rem 6rem;
+	display: grid;
+	grid-template-columns: 30fr 34fr;
+	column-gap: 3.2rem;
+}
+.feature-img {
+	width: 75%;
+}
+.align {
+	text-align: center;
+	padding-right: 4rem;
+}
+.div-feature-con {
+	margin-top: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.desc {
+	font-size: 1.8rem;
+	color: #555555;
+	line-height: 1.7;
+}
+.title {
+	margin-bottom: 4rem;
+	color: #333;
+	margin-left: 0 !important;
+}
+.todo {
+	width: 100%;
+}
+.todoimg-cont {
+	background-color: white;
+	text-align: center;
+}
+.task-title {
+	font-size: 2rem;
+	text-transform: capitalize;
+	color: #222;
+	margin-bottom: 1rem;
+}
+.task-description {
+	font-size: 1.6rem;
+	margin-bottom: 0;
+}
+.task-date {
+	font-size: 1.3rem;
+	color: #333;
+	display: inline-block;
+	margin-top: 0.7rem;
+}
+.task-container {
+	background-color: white;
+	padding: 5rem 2rem;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.089);
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: space-between;
+	position: relative;
+}
+.grid-task-container {
+	display: grid;
+	column-gap: 2rem;
+	row-gap: 3.2rem;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-left: 4rem;
+	margin-right: 4rem;
+	margin-top: 12rem;
+	margin-bottom: 15rem;
+}
+.delete-btn {
+	position: absolute;
+	right: 2rem;
+	top: 2rem;
+	border: none;
+	background-color: white;
+	font-size: 2.4rem;
+}
+.delete-btn:hover {
+	color: #f76707;
+}
+.completed {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 1.6rem;
+	color: #444;
+	margin-right: 0.5rem;
+	margin-bottom: 0;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+.priority {
+	font-size: 1.7rem;
+	color: #555;
+}
+span {
+	padding: 0.2rem 1rem;
+	background-color: white;
+	color: #222 !important;
+	border-radius: 9px;
+	font-weight: 500;
+	font-size: 1.4rem;
+	box-shadow: 0 0 0 2px rgb(250, 204, 118);
+	margin-left: 0.5rem;
+}
+.edit-btn {
+	border: none;
+	padding: 1rem 2rem;
+	border-radius: 9px;
+	font-size: 1.6rem;
+	text-transform: capitalize;
+	background-color: transparent;
+}
+.edit-btn:hover {
+	box-shadow: 0 0 3px rgba(158, 156, 156, 0.479);
+}
+.edit-form-container {
+	background-color: #e98e2e;
+	max-width: 50%;
+	margin: 0 auto 9rem auto;
+	padding-top: 4rem;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 16px;
+}
+.edit-form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 2.4rem;
+	column-gap: 3.2rem;
+	align-items: center;
+	padding: 6rem 7rem;
+}
+.edit {
+	margin-bottom: -3rem;
+}
+.btnedit {
+	background-color: #ffae57;
+	padding: 1rem 2rem;
+	box-shadow: 0 0 0 7px #ffe8cc;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	background-color: #03030388;
+	width: 100vw;
+	height: 100vh;
+}
+.btn-close-conatiner {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	z-index: 2;
+}
+.btn-close {
+	position: absolute;
+	top: 15%;
+	left: 71%;
+	z-index: 6;
+	font-size: 3.4rem;
+	border: none;
+	color: white;
+	background-color: transparent;
+}
+.btn-closee {
+	position: absolute;
+	top: 10.5%;
+	left: 86.5%;
+	z-index: 6;
+	font-size: 3.4rem;
+	border: none;
+	color: rgb(3, 3, 3);
+	background-color: transparent;
+}
+.task-completed {
+	background-color: #ebfbee;
+}
+.line-through {
+	text-decoration-line: line-through;
+	text-decoration-thickness: 0.8rem;
+	text-decoration-color: #4d4b4b;
+	color: #646464;
+}
+.transparent {
+	background-color: transparent;
+}
+.disabled-button {
+	cursor: not-allowed;
+	pointer-events: none;
+}
+.nav-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	padding: 3rem 5rem;
+	background-color: #ffe8cc;
+}
+.nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+ul li {
+	list-style: none;
+}
+.nav-link {
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 1.8rem;
+	color: #444;
+	font-weight: 500;
+	transition: all 0.6s;
+}
+.nav-link:hover {
+	color: #ee9535;
+}
+.btn-documentation {
+	background-color: transparent;
+	border: none;
+	text-transform: capitalize;
+	font-size: 1.9rem;
+	color: #555555;
+	font-weight: 600;
+	transition: all 0.6s;
+}
+.btn-documentation:hover {
+	color: #ee9535;
+}
+.app-name-container {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #252525;
+}
+.free {
+	background-color: #eb7628;
+	padding: 1rem 1.7rem;
+	color: white;
+	border-radius: 9px;
+	transition: all 0.9s;
+}
+.free:hover {
+	color: black !important;
+}
+.footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 50rem;
+	background-color: white;
+	border-top: solid 1px rgb(236, 236, 236);
+}
+
+.footer a {
+	text-decoration: none;
+	font-size: 1.6rem;
+	color: #555;
+	text-transform: capitalize;
+	transition: all 0.6s;
+}
+.footer a:hover {
+	color: #f8af56;
+}
+.info {
+	font-size: 1.8rem;
+	color: #424141;
+	margin-bottom: 4rem;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.footer ul {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.margin-bottom {
+	margin-bottom: 1.5rem !important;
+}
+li {
+	font-size: 1.6rem;
+	text-transform: capitalize;
+	color: #555;
+}
+.line {
+	line-height: 1.6;
+}
+.footer p {
+	position: absolute;
+	bottom: 0;
+	transform: translateY(265rem);
+	text-transform: capitalize;
+	color: #757373;
+	font-size: 1.4rem;
+	margin-bottom: 3rem;
+}
+.red {
+	background-color: #ffa94d !important;
+}
+.yellow {
+	background-color: #ffec99 !important;
+}
+.green {
+	background-color: #a9e34b !important;
+}
+.form--conainer p {
+	margin-bottom: 0;
+	margin-top: 2rem;
+	color: red;
+	font-size: 1.6rem;
+}
+.hidden {
+	opacity: 0;
+}
+.none {
+	opacity: 0;
+	margin-top: 0 !important;
+}
+.hero {
+	padding-right: 5rem;
+}
+.documnt-container {
+	width: 110rem;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 5rem;
+	border-radius: 20px;
+}
+.doc-title {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	text-transform: capitalize;
+}
